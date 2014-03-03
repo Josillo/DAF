@@ -11,12 +11,12 @@
 <html lang="en">
 <head>
 	<?php
-		include "include/header.php";
+		include "../include/header.php";
 		echo "<title>" . $page_title . "</title>";
 	?>
 </head>
 <body>
-	<?php include "include/before_content.php"; ?>
+	<?php include "../include/before_content.php"; ?>
 
 	<p>This paragraph is shown only when the navigation starts from <strong>first_page.php</strong>.</p>
 
@@ -35,7 +35,7 @@
 	<p>This paragraph is shown only when the navigation starts from <strong>first_page.php</strong>.</p>
 
 	<?php
-		include "include/after_content.php";
+		include "../include/after_content.php";
 echo "</body>\n</html>";
 	}
 	?>
